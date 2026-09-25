@@ -42,9 +42,9 @@ Star, letters, and dot are kept in one unified list on purpose: keeping them in 
 
 | Library | Version | Why |
 |---|---|---|
-| Jetpack Compose | _(fill in your BOM version)_ | UI, plus the offset/gesture APIs the curve animation is built on |
-| Kotlin Coroutines | _(fill in)_ | Loading the installed-app list off the main thread, and the live clock tick |
-| `androidx.core:core-ktx` | _(fill in)_ | `Drawable.toBitmap()` for rendering app icons in Compose |
+| Jetpack Compose | _(1.0.1)_ | UI, plus the offset/gesture APIs the curve animation is built on |
+| Kotlin Coroutines | _(1.0.1)_ | Loading the installed-app list off the main thread, and the live clock tick |
+| `androidx.core:core-ktx` | _(1.0.1)_ | `Drawable.toBitmap()` for rendering app icons in Compose |
 | _(add anything else you pulled in)_ | | |
 
 No animation or physics library was used for the curve itself — the falloff and spring-back are hand-written, per the assignment's ask that the core animation not be pulled from a library.
